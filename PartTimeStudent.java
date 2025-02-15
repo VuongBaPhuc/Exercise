@@ -1,11 +1,10 @@
-
 public class PartTimeStudent extends Student {
-    private static int count = 0; // Biến đếm tĩnh cho PartTimeStudent
+    private static int count = 0; 
     private int minHour;
     private int maxHour;
 
     public PartTimeStudent() {
-        count++; // Tăng biến đếm khi khởi tạo
+        count++; 
     }
 
     public PartTimeStudent(String name, String major, String id) {
@@ -21,10 +20,10 @@ public class PartTimeStudent extends Student {
     }
 
     public void registerHour(int hour) {
-        // Cài đặt đăng ký giờ
+    
     }
 
     public static int count() {
-        return count; // Trả về số lượng đối tượng PartTimeStudent đã được tạo
+        return count; 
     }
 }
